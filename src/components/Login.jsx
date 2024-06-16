@@ -41,8 +41,8 @@ function Login() {
             style={{ padding: isFocused? "10px" : "5px" }}
             onFocus={handleFocus}
             onBlur={handleBlur}
-            
             placeholder="Username" />
+            
             <input className="login-input" type="password" 
             style={{ padding: ispassFocussed? "10px" : "5px" ,
             transition: "padding 0.3s ease-in-ut" }}

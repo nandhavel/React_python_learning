@@ -6,7 +6,7 @@ import './Page_style/index.css';
 //import Firstcomponent from "./First";
 //import List from "./list";
 
-var isregistered = true;
+var isregistered = false;
 
 function App() {
     return <div className="main_app"> {
