@@ -1,9 +1,23 @@
+#root {
+  background-color: teal
+}
+
+
+.main_app {
+  display: flex;
+  justify-content: center; /* Center horizontally */
+  align-items: center; /* Center vertically */
+  height: 85vh; /* Full height of viewport */
+}
+
+
 
 .login-form {
   max-width: 300px;
   margin: 0 auto;
   padding: 20px;
   background: #f9f9f9;
+  background-color:lightgray ;
   border: 5px solid #cccccc;
   border-radius: 5px;
   box-shadow: 0 0 10px rgba(122, 8, 8, 0.1);
@@ -11,11 +25,12 @@
 
 .login-input {
   width: 95%;
-  margin-bottom: 10px;
-  padding: 8px;
-  border-radius: 5px;
+  margin-bottom: 20px;
+  padding: 5px;
+  border-radius: 8px;
   border: 1px solid #ccc;
 }
+
 
 .login-button {
   width: 100%;
